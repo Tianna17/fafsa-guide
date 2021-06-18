@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_categories",
+  "info": {
+    "name": "category",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

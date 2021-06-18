@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.8 !important;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+.nav-link .active {
+  background-color: red !important;
+}
+
+.h2,
+h2 {
+  font-size: 2rem;
+}
+
+main {
+  flex: 1;
+  overflow-x: hidden;
+}
+.main-content {
+  margin-top: 4rem !important;
+  position: relative;
+}
+.content {
+  padding-bottom: 40px;
+}
+
+.content ul {
+  margin: 0;
+}
+.content ul li {
+  margin-bottom: 10px;
+}
+.card {
+  border-radius: 9px;
+  min-height: 160px;
+  border: 0;
+}
+
+.btn-home {
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: #563d7c !important;
+  border: 1px solid #563d7c !important;
+}
+
+.home .card:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.swiper-container {
+  height: 300px;
+  width: 60%;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  width: 80% !important;
+  margin: auto !important;
+}
+
+.side-bar .nav-link {
+  display: block;
+  padding: 0.5rem 0;
+}
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2rem 0 1rem;
+}
+.text-purple {
+  color: #563d7c !important;
+}
+
+.cards:nth-child(1) {
+  background: red;
+}
+
+.pagination button {
+  cursor: pointer;
+  background-color: #563d7c !important;
+  font-weight: 500;
+  outline: none;
+  color: #fff;
+}
+.container {
+  position: relative;
+}
+.testimonial-slider img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 50vh;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+.active {
+  border-bottom: 3px solid #563d7c !important;
+  color: #333;
+}
+.required {
+  color: red;
+}
