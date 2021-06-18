@@ -28,3 +28,15 @@ It breaks down the different section of the FAFSA application into six steps
 5.	Step Five - Student Household Information
 6.	Step Six - Submit, Sign, and Date
 ```
+
+## How run to FAFSA Guide Client
+1. clone repo
+2. cd into client
+3. npm i 
+4. npm start
+
+## How run to FAFSA Guide Backend
+1. clone repo
+2. cd into backend
+3. npm i
+4. npm run develop
